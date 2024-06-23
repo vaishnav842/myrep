@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        
+        function getfun() {
+            let sv=document.getElementById("select");
+        let n1=parseInt(document.getElementById("num1").value);
+        let n2=parseInt(document.getElementById("num2").value);
+        
+        if(sv.value=="add")
+    
+        {
+            let sum=n1+n2;
+            console.log(sum)
+            document.getElementById("ip3").value=sum
+        }
+        else if(sv.value=="sub")
+    
+    {
+        let sub=n1-n2;
+        document.getElementById("ip3").value=sub
+    }
+        }
+        </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <!-- // let a=3
+        // let c=5
+        // console.log("a+b",a+b)
+        // console.log("a-b",a-b)
+        // console.log("a*b",a*b)
+        // console.log("a%b",a%b)
+        // console.log("a**b",a**b)
+        // console.log("equal to",b==c);
+        // console.log("identical",b===c);
+        // console.log("not equal to",b!=c);
+        // console.log("Greater than",b>c); -->
+        <!-- // console.log("less than to",b<c);
+        // if(a%2==0)
+        // {
+        //     console.log("Even Number");
+
+        // }
+        // else{
+            
+        //     console.log("odd Number");
+        // }
+        
+        // let num=0;
+        // if(num>0)
+        // {
+        //     console.log("positive Number");
+        // }
+        // else if(num<0)
+        // {
+        //     console.log("Negative Number");  
+        // }
+        // else{
+        //     console.log("number is Zer0")
+        // }
+    //     if(num>75&&num<100)
+    //     {
+    //         console.log("A Grade");
+
+    //     }
+    //     else if(num>=50&&num<=74)
+    // {
+
+    // }
+// let Day="tuesday"
+// switch(Day)
+// {
+//     case 'monday':
+//     console.log("its monday")
+//     break
+
+
+//     case 'tuesday':
+//     console.log("its tuesday")
+//     break
+
+
+//     case 'wednesday':
+//     console.log("its wednesday")
+//     break 
+
+
+//     case 'thursday':
+//     console.log("its thursday")
+//     break
+
+
+//     case 'friday':
+//     console.log("its friday")
+//     break
+
+
+//     case 'saturday':
+//     console.log("its saturday")
+//     break
+
+
+//     case 'sunday':
+//     console.log("its sunday")
+//     break
+//     default:Dayconsole.log("sorry error occured")
+// }
+// let i
+// console.log("even numbers")
+// for(i=0;i<=10;i++)
+// {
+//     if (i%2==0)
+//     console.log(i)
+
+// }
+// console.log("odd numbers")
+// for(i=0;i<=10;i++)
+// {
+//     if (i%2!=0)
+//     console.log(i)
+// }
+// var n=0
+// while (n<=50)
+// {
+//     console.log(n)
+//     i++
+// }
+//var r=0
+//while(r<=10)
+// {
+//     if (r%2==0)
+//     console.log(r)
+//     r++
+// } -->
+
+
+
+
+
+    <input type="text"placeholder="no1"id="num1">
+    <select id="select">
+        <option value="add">+</option>
+        <option value="substract">-</option>
+        <option value="multiply">*</option>
+        <option value="division">/</option>
+        </select>
+        <input type="text"placeholder="no2"id="num2">
+        <input type="button" value="sum" onclick="getfun()">
+        <input type="text"id="ip3">
+        
+        
+        
+
+        
+        
+        
+
+        
+    
+    
+     
+    
+   
+</body>
+
+</html>
